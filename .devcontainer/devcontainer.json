@@ -1,0 +1,8 @@
+{
+  "name": "Pyxel VNC Template",
+  "image": "mcr.microsoft.com/vscode/devcontainers/python:3",
+  "features": {
+  "ghcr.io/devcontainers/features/common-utils:1": {}
+  }, 
+  "postCreateCommand": "pip install -r requirements.txt"
+}
